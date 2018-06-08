@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* 头部导航hover样式 */
+.ht-more:hover ul{
+	margin-top:-50px;
+}
+.ht-more:hover + ul{
+	margin-top:-50px;
+}
+
+.ht-more a:hover{
+	background-image:url("../images/nav2016-morebg.png");
+}
+.hc-login a:hover{
+	color:#f03;
+}
+/* .ht-nav a:hover{
+	color:#f03;
+} */
+.ht-nav .ht-search a:focus{
+	background-image:url("../images/nav2016-search-open.png");
+}
+.ht-nav .ht-search a:focus + .search-content{
+	display:block;
+}
+
+
+/* 放大镜hover效果 另一种写法 */
+/* .ht-nav .ht-search a:hover,.ht-search a:active{
+background-image:url("../images/nav2016-search-open.png");
+}
+.ht-nav .ht-search a:fovus + .search-content{
+	display:block;
+} */
+
+/* swiper改变hover样式 */
+#header .hc-bannerl:hover .swiper-button-prev{
+	left:693px;
+}
+#header .hc-bannerl:hover .swiper-button-next{
+	right:0px;
+}
+
+
+
+/* right now 下面左区域  */
+.rn-contentl .rn-more:hover{
+	color:#f03;
+}
+/* right now 下面右区域  */
+/* right now 的hover效果 */
+.rn-contentl a:hover{
+	color:#f03;
+}
+.rn-contentr .img3 .btn:hover p{
+	margin-top:-15px;
+}
+.img4:hover .m-hover{
+	height:300px;
+	top:0px;
+}
+.img4 .m-hover span:hover{
+	background-color:#fff;
+	color:#000;
+}
+
+/* video开始按钮hover样式 */
+.c-nav ul li:hover a{
+	color:#f03;
+}
+.v-contentl .u-img:hover i{
+	background-color:rgba(0,0,0,.7);
+	background-position-y:-157px;
+	/* background-position:-225px -157px; */
+}
+#content .v-contentr li a:hover i{
+	background-color:rgba(0,0,0,.7);
+	background-position-y:-147px;
+}
+.v-content a:hover{
+	color:#f03;
+}
+/* trends的swiper  hover修改 */
+#content .trends .t-contentl:hover .t-contentl .swiper-button-prev{
+	left:396px;
+}
+#content .trends .t-contentl:hover .t-contentl .swiper-button-next{
+	right:10px;
+}
+/*--trends的更多hover--*/
+.t-content .t-contentr .u-img:hover .u-text{
+	bottom:10px;
+}
+.t-content .contentr .u-img a:hover{
+	color:#f03;
+}
+.t-content a:hover{
+	color:#f03;
+}
+/* 独家精品策划 hover样式开始 */
+.b-nav li:hover> a {
+	color:#f03;
+}
+.b-nav li:hover i{
+	width:100%;
+	left:0;
+}
+.b-nav li p:hover{
+	color:#f03;
+}
+/* .pic-small:hover ~.pic-big{
+	opacity:1;
+} */
+.b-nav ul li:hover .b-img{
+	opacity:1;
+}
+/* 每周 hover样式开始 */
+.t-time .btn:hover p{
+ 	margin-top:-15px;
+ }
+/* brands的swiper  hover修改 */
+#content .brands .t-contentl:hover .swiper-button-prev{
+	left:50px;
+}
+#content .brands .t-contentl:hover .swiper-button-next{
+	right:50px;
+}
+/* brands品牌 hover样式开始 */
+.b-contentr .u-img:hover .u-text{
+	height:240px;
+	top:0;
+}
+.b-contentr .u-img .u-text a:hover{
+	color:#f03;
+}
+/* Interactive互动 区域hover开始 */ 
+.interactive .i-contentl li:hover .u-text{
+	display:block;
+}
+.i-content .i-but a:hover .i-but1{
+	background-position:-731px -201px;
+}
+.i-content .i-but a:hover .i-but2{
+	background-position:-731px -299px;
+}
+.i-content .i-but a:hover .i-but3{
+	background-position:-731px -348px;
+}
+.i-contentl .u-img a:hover{
+	color:#f03;
+}
+.i-contentr .u-img p a:hover{
+	color:#f03;
+}
+.i-contentr ul li a:hover{
+	color:#f03;
+}
+/* Gallery hover效果 */
+.gallery .g-content .u-img:hover .u-text{
+	height:240px;
+	top:10px;
+}
+/* notes时尚笔记 hover效果 */
+.notes .n-content ul .n-text a:hover{
+	color:#f03;
+}
+/* 网页底部样式hover效果 */
+#footer .fc-pic .bag:hover .wap{
+	display:block;
+}
+.fc-pic .bag:hover > img{
+	top:70px;
+}
+.fc-pic .app:hover img{
+	display:block;
+}
+.weixin ul li:hover{
+	height:153px;
+}
+#footer .fc-content a:hover{
+	color:#f03;
+}
+.fc-content .f-copy .link ul li a:hover{
+	color:#f03;
+}
